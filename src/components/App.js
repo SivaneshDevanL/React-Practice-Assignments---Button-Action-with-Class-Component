@@ -15,17 +15,12 @@ class App extends React.Component {
     }
 
     render() {
-	           function Para1(){
-            return(
-                <p style={{marginLeft:'30%',marginTop:'1%'}} id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy
-                </p>
-               ) 
-        }
     	return(
     		<div id="main">
 		 <button id="click" onClick={this.Para3}>click me</button>
                 {this.state.v===1&&(
-                    <Para1/>
+                    <p style={{marginLeft:'30%',marginTop:'1%'}} id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy
+                </p>
                 )}
     		</div>
     	)

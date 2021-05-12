@@ -1,9 +1,9 @@
-import React, {Component, useState} from "react";
+import React from "react";
 import '../styles/App.css';
 
-class App extends Component {
-    constructor(props) {
-		super(props);
+class App extends React.Component {
+    constructor() {
+		super();
 	        this.state={
             v:0
         }
@@ -28,7 +28,7 @@ class App extends Component {
                     <Para1/>
                 )}
     		</div>
-    	);
+    	)
     }
 }
 

@@ -46,7 +46,7 @@ class App extends Component {
 
 render() {
 
- var bool = "";
+ var bool = null;
 
  if (this.state.boolean) {
 
@@ -61,7 +61,7 @@ render() {
 
  { /* Do not remove this main div!!  {this.state.boolean&&(<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>)}*/ }
 
- <button type="submit" id="click" onClick={this.setState({boolean:true})}>Click Me !!</button>
+ <button type="submit" id="click" onClick={()=>this.setState({ boolean: true })}>Click Me !!</button>
    {bool}
    
 

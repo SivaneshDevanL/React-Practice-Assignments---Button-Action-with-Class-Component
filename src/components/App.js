@@ -32,15 +32,15 @@ class App extends Component {
 
  };
 
-//  handleSubmit=()=>{
+ handleSubmit(){
 
-//  if(!this.state.boolean){
+ if(!this.state.boolean){
 
-//  this.setState({ boolean: true });
+ this.setState({ boolean: true });
 
-//  }
+ }
 
-//  }
+ }
 
  
 
@@ -61,7 +61,7 @@ render() {
 
  { /* Do not remove this main div!!  {this.state.boolean&&(<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>)}*/ }
 
- <button type="submit" id="click" onClick={()=>this.setState({boolean:true})}>Click Me !!</button>
+ <button type="submit" id="click" onClick={this.handleSubmit}>Click Me !!</button>
    {bool}
    
 

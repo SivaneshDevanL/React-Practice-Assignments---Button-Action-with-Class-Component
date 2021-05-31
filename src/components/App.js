@@ -62,7 +62,7 @@ render() {
 
  <button type="submit" id="click" onClick={this.handleSubmit}>Click Me !!</button>
 {this.state.boolean&&(<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>)}	
-//  {bool}
+   
 
  </div>
 

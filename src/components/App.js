@@ -32,13 +32,13 @@ class App extends Component {
 
  };
 
- handleSubmit(){
+ handleSubmit=(e)=>{
 
- if(!this.state.boolean){
+//  if(!this.state.boolean){
 
  this.setState({ boolean: true });
 
- }
+//  }
 
  }
 

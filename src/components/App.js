@@ -46,7 +46,7 @@ class App extends Component {
 
 render() {
 
- var bool = null;
+ var bool = "";
 
  if (this.state.boolean) {
 
